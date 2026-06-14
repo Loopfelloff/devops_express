@@ -9,5 +9,5 @@ services:
     image: containrrr/watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --poll-interval 60
+    command: --interval 60
     restart: unless-stopped
